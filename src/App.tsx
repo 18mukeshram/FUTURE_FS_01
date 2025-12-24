@@ -1,7 +1,9 @@
+import HeroSection from "./components/hero/HeroSection";
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white text-5xl flex items-center justify-center">
-      TAILWIND v4 WORKING
+    <div className="bg-neutral-950 text-neutral-100 min-h-screen">
+      <HeroSection />
     </div>
   );
 }

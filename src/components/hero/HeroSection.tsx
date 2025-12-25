@@ -17,7 +17,7 @@ export default function HeroSection() {
 
         <div className="flex gap-4">
           <a
-            href="/resume.pdf"
+            href="/Mukesh_ram_resume.pdf"
             className="px-6 py-3 bg-white text-black rounded-md"
           >
             Download Resume

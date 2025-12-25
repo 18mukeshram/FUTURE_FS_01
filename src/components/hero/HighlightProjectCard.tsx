@@ -1,6 +1,11 @@
 export default function HighlightProjectCard() {
   return (
     <div className="bg-neutral-900 rounded-xl p-8 flex flex-col gap-4">
+      <img
+        src="/skillbridge.png"
+        alt="SkillBridge preview"
+        className="w-full rounded-lg mb-4 border border-neutral-700"
+      />
       <h2 className="text-2xl font-medium">SkillBridge</h2>
 
       <p className="text-neutral-400">

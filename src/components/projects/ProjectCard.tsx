@@ -7,6 +7,12 @@ type Props = {
 export default function ProjectCard({ project }: Props) {
   return (
     <div className="bg-neutral-900 rounded-lg p-6 flex flex-col gap-4">
+      <img
+        src={project.image}
+        alt={project.name}
+        className="w-full h-40 object-cover rounded-md mb-4 border border-neutral-700"
+      />
+
       <h3 className="text-xl font-medium">{project.name}</h3>
 
       <p className="text-sm text-neutral-400">{project.description}</p>

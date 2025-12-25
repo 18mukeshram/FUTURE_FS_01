@@ -3,6 +3,7 @@ import ProjectsSection from "./components/projects/ProjectsSection";
 import TechStackSection from "./components/tech/TechStackSection";
 import AboutSection from "./components/about/AboutSection";
 import ContactSection from "./components/contact/ContactSection";
+import Footer from "./components/shared/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <TechStackSection />
       <AboutSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 }

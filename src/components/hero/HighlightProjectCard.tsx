@@ -9,7 +9,7 @@ export default function HighlightProjectCard() {
       <h2 className="text-2xl font-medium">SkillBridge</h2>
 
       <p className="text-neutral-400">
-        A frontend-driven learning roadmap platform built with a real product
+        A full stack learning roadmap platform built with a real product
         mindset.
       </p>
 

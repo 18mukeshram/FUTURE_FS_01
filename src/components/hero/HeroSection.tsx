@@ -18,8 +18,9 @@ export default function HeroSection() {
         </div>
 
         <p className="text-neutral-400 max-w-md">
-          I build clean, responsive, and product-focused web interfaces using
-          React, with strong attention to structure, usability, and real-world
+          I build clean, responsive, and product-focused full stack web
+          applications using React on the frontend and Node.js on the backend,
+          with strong attention to structure, usability, and real-world
           constraints.
         </p>
 

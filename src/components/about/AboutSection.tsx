@@ -4,15 +4,14 @@ export default function AboutSection() {
       <h2 className="text-3xl font-semibold mb-6">About</h2>
 
       <p className="text-neutral-400 leading-relaxed">
-        I focus on building frontend systems that are clean, maintainable, and
-        easy to scale. I care deeply about layout discipline, component
-        structure, and creating interfaces that feel calm and predictable to
-        users.
+        I build full stack web applications with a strong focus on frontend
+        clarity, maintainable component architecture, and practical backend
+        integration using REST APIs.
       </p>
 
       <p className="text-neutral-400 leading-relaxed mt-4">
-        I approach projects with a product mindset, balancing frontend clarity
-        with practical backend integration when required.
+        I approach projects with a product mindset, ensuring that both the user
+        interface and the underlying logic are simple, scalable, and reliable.
       </p>
     </section>
   );

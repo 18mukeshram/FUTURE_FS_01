@@ -1,7 +1,7 @@
 export const techStack = {
   Languages: ["JavaScript", "TypeScript", "Java"],
-  Frameworks: ["React", "Angular"],
-  Styling: ["Tailwind CSS", "CSS3"],
-  Backend: ["Node.js", "Express", "MongoDB", "REST APIs"],
+  Frontend: ["React", "Angular", "Tailwind CSS", "CSS3"],
+  Backend: ["Node.js", "Express", "REST APIs"],
+  Database: ["MongoDB"],
   Tools: ["Git", "GitHub", "Vite", "Postman"],
 };

@@ -1,6 +1,7 @@
 import HeroSection from "./components/hero/HeroSection";
 import ProjectsSection from "./components/projects/ProjectsSection";
 import TechStackSection from "./components/tech/TechStackSection";
+import AboutSection from "./components/about/AboutSection";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <HeroSection />
       <ProjectsSection />
       <TechStackSection />
+      <AboutSection />
     </div>
   );
 }

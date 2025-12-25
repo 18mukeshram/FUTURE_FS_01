@@ -1,3 +1,5 @@
+import HighlightProjectCard from "./HighlightProjectCard";
+
 export default function HeroSection() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-24 grid gap-16 md:grid-cols-2">
@@ -30,10 +32,8 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Right: Reserved for highlight project */}
-      <div className="bg-neutral-900 rounded-xl p-8 flex items-center justify-center text-neutral-500">
-        Highlight project will live here
-      </div>
+      {/* Right: Highlight Project */}
+      <HighlightProjectCard />
     </section>
   );
 }

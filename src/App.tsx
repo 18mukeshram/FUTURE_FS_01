@@ -7,7 +7,7 @@ import Footer from "./components/shared/Footer";
 
 export default function App() {
   return (
-    <div className="bg-neutral-950 text-neutral-100 min-h-screen">
+    <div className="bg-neutral-900 text-neutral-100 min-h-screen">
       <HeroSection />
       <ProjectsSection />
       <TechStackSection />
